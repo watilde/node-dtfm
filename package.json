@@ -1,0 +1,15 @@
+{
+  "name": "dtmf",
+  "version": "1.0.0",
+  "description": "DTMF encoder/decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "dependencies": {
+    "web-audio-engine": "^0.13.4"
+  }
+}
