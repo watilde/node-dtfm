@@ -1,0 +1,39 @@
+<html>
+<head>
+  <style>
+  .wrapper {
+    background-color: #3c6446;
+    width: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .wrapper button {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    font-size: 36px;
+    border-radius: 50%;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <button onclick="encode(1)">1</button>
+    <button onclick="encode(2)">2</button>
+    <button onclick="encode(3)">3</button>
+    <button onclick="encode(4)">4</button>
+    <button onclick="encode(5)">5</button>
+    <button onclick="encode(6)">6</button>
+    <button onclick="encode(7)">7</button>
+    <button onclick="encode(8)">8</button>
+    <button onclick="encode(9)">9</button>
+    <button onclick="encode('*')">＊</button>
+    <button onclick="encode(0)">0</button>
+    <button onclick="encode('#')">#</button>
+  </button>
+  <script src="encode.js"></script>
+</body>
+</html>
