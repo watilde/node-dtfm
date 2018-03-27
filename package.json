@@ -1,6 +1,6 @@
 {
   "name": "dtmf",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "DTMF encoder/decoder",
   "main": "index.js",
   "scripts": {
